@@ -6,13 +6,19 @@ data:extend(
     setting_type = "startup",
     default_value = "Magenta",
     allowed_values = {
+      "White",
+      "Gray",
+      "Black",
       "Red",
-      "Green",
-      "Blue",
-      "Cyan",
-      "Magenta",
+      "Orange",
       "Yellow",
-      "Gray"
+      "Lime",
+      "Green",
+      "Cyan",
+      "Blue",
+      "Purple",
+      "Magenta",
+      "Pink"
     }
   },
   {
@@ -21,29 +27,41 @@ data:extend(
     setting_type = "startup",
     default_value = "Cyan",
     allowed_values = {
+      "White",
+      "Gray",
+      "Black",
       "Red",
-      "Green",
-      "Blue",
-      "Cyan",
-      "Magenta",
+      "Orange",
       "Yellow",
-      "Gray"
+      "Lime",
+      "Green",
+      "Cyan",
+      "Blue",
+      "Purple",
+      "Magenta",
+      "Pink"
     }
   },
   {
     type = "string-setting",
-    name = "cc-elec-color",
+    name = "cc-copper-color",
     setting_type = "startup",
     default_value = "Default",
     allowed_values = {
       "Default",
+      "White",
+      "Gray",
+      "Black",
       "Red",
-      "Green",
-      "Blue",
-      "Cyan",
-      "Magenta",
+      "Orange",
       "Yellow",
-      "Gray"
+      "Lime",
+      "Green",
+      "Cyan",
+      "Blue",
+      "Purple",
+      "Magenta",
+      "Pink"
     }
   }
 }
