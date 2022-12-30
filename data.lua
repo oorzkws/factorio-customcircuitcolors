@@ -23,7 +23,20 @@ local bg_lut = {
 
 -- In Factorio this order is deterministic, in normal Lua it is not
 local spritesheet_pos = 0
-for color in pairs(lut) do
+for color, value in pairs(lut) do
+    -- Add sprite with color for locale, thanks to Deadlock989 for the suggestion
+    data:extend({{
+        type = "sprite",
+        name = "ccc-color-" .. color:lower(),
+        filename = "__CustomCircuitColors__/graphics/icons/circle.png",
+        tint = value,
+        priority = "extra-high",
+        flags = {"gui-icon"},
+        width = 64,
+        height = 64,
+        mipmap_count = 0
+    }})
+    -- Add bg_lut entry
     bg_lut[color] = {spritesheet_pos, 0}
     spritesheet_pos = spritesheet_pos + 36
 end
