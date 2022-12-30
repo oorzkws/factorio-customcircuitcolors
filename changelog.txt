@@ -1,4 +1,11 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.2.0
+Date: December 29, 2022
+  Features:
+    - New colors: White, Black, Orange, Pink, Purple, Lime
+  Changes:
+    - Internal cleanup
+---------------------------------------------------------------------------------------------------
 Version: 1.1.0
 Date: June 8, 2022
   Features:
