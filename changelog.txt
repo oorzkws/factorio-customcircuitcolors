@@ -1,8 +1,15 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.2.1
+Date: December 30, 2022
+  Features:
+    - Settings now include a preview of the given color
+      Thanks for the suggestion and example implementation, Deadlock989
+---------------------------------------------------------------------------------------------------
 Version: 1.2.0
 Date: December 29, 2022
   Features:
     - New colors: White, Black, Orange, Pink, Purple, Lime
+      Thanks for submitting these changes, TopSpeedKertus
   Changes:
     - Internal cleanup
 ---------------------------------------------------------------------------------------------------
