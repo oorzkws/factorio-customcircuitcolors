@@ -6,6 +6,7 @@ data:extend(
     setting_type = "startup",
     default_value = "Magenta",
     allowed_values = {
+      "Default",
       "White",
       "Gray",
       "Black",
@@ -27,6 +28,7 @@ data:extend(
     setting_type = "startup",
     default_value = "Cyan",
     allowed_values = {
+      "Default",
       "White",
       "Gray",
       "Black",
