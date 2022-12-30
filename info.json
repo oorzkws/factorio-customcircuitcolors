@@ -1,0 +1,9 @@
+{
+    "name": "CustomCircuitColors",
+    "version": "1.1.0",
+    "title": "Custom Circuit Network Colors",
+    "author": "_-_-_",
+    "description": "Lets you choose custom colors for the items formerly known as red and green wires. Now with electric wire coloring support.",
+    "dependencies": ["base >= 0.17"],
+    "factorio_version": "1.1"
+}

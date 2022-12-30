@@ -1,0 +1,16 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.1.0
+Date: June 8, 2022
+  Features:
+    - You can now change the color of copper (electric) wire, this is unchanged by default.
+      Thanks for the suggestion, eternal_wait
+---------------------------------------------------------------------------------------------------
+Version: 1.0.1
+Date: June 8, 2022
+  Bugfixes:
+    - Fix item name locales
+---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: May 31, 2022
+  Info:
+    - Initial version
