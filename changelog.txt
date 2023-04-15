@@ -1,6 +1,12 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.2.2
+Date: April 15, 2023
+  Features:
     - Support for WireShortcuts (https://mods.factorio.com/mod/WireShortcuts)
       Thanks for the suggestion, Zehir
+    - Support for Thicker Power Wires (https://mods.factorio.com/mod/ThickerLines)
+      Thanks for the suggestion, Zehir
+---------------------------------------------------------------------------------------------------
 Version: 1.2.1
 Date: December 30, 2022
   Features:
